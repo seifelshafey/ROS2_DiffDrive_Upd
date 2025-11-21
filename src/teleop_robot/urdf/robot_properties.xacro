@@ -9,12 +9,19 @@
     <xacro:property name="chassis_mass" value="2.0" />
     <xacro:property name="wheel_mass" value="0.5" />
 
+    <xacro:property name="M_PI" value="3.14159265359"/>
+    <xacro:property name="DEG_TO_RAD" value="${M_PI / 180.0}"/>
+
     <material name="blue">
         <color rgba="0 0 0.8 1"/>
     </material>
 
     <material name="grey">
         <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 0"/>
     </material>
 
     <xacro:macro name="box_inertia" params="m l w h">

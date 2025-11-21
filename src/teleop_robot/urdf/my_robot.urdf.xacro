@@ -4,28 +4,10 @@
     <xacro:include filename="$(find teleop_robot)/urdf/robot_properties.xacro"/>
     <xacro:include filename="$(find teleop_robot)/urdf/my_robot_links.xacro"/>
     <xacro:include filename="$(find teleop_robot)/urdf/my_robot_joints.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/ros2_control.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/lidar.xacro"/>
 
-    <ros2_control name="GZ_DiffDriveRobot" type="system">
-      <hardware>
-        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
-      </hardware>
+    <xacro:lidar parent_link="base_link" x_loc="0.0" y_loc="0.0" z_loc="0.15"/>
+ 
 
-      <joint name="right_wheel_joint">
-          <command_interface name="velocity"/>
-          <state_interface name="velocity"/>
-          <state_interface name="position"/>
-      </joint>
-
-      <joint name="left_wheel_joint">
-          <command_interface name="velocity"/>
-          <state_interface name="velocity"/>
-          <state_interface name="position"/>
-      </joint>
-    </ros2_control>
-
-    <gazebo>
-        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-            <!-- <parameters>$(find teleop_robot)/config/my_controllers.yaml</parameters> -->
-        </plugin>
-    </gazebo>
 </robot>
