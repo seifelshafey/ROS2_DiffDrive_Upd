@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cdb110c0a664a178cc08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "teleop_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "spawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spawn-52c6999fa926c00fef4d.json",
+					"name" : "spawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-state-dbec86fc28f43145b360.json",
+					"name" : "state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop-aeb827b29792cfe74d9a.json",
+					"name" : "teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_robot_uninstall-5ee6e2e058a2ea5a447d.json",
+					"name" : "teleop_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2873d80e83819125ccc2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/seifelshafey/nav_robot_ws/src/build/teleop_robot",
+		"source" : "/home/seifelshafey/nav_robot_ws/src/teleop_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

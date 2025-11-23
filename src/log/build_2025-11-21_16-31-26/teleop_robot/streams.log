@@ -1,0 +1,103 @@
+[0.032s] Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/seifelshafey/nav_robot_ws/src/teleop_robot -DCMAKE_INSTALL_PREFIX=/home/seifelshafey/nav_robot_ws/src/install/teleop_robot
+[0.295s] -- The C compiler identification is GNU 11.4.0
+[0.949s] -- The CXX compiler identification is GNU 11.4.0
+[1.418s] -- Detecting C compiler ABI info
+[1.733s] -- Detecting C compiler ABI info - done
+[1.742s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.742s] -- Detecting C compile features
+[1.742s] -- Detecting C compile features - done
+[1.745s] -- Detecting CXX compiler ABI info
+[2.141s] -- Detecting CXX compiler ABI info - done
+[2.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.151s] -- Detecting CXX compile features
+[2.151s] -- Detecting CXX compile features - done
+[2.161s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.402s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.626s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.108s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.127s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.154s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.385s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.399s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.878s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.775s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.752s] -- Looking for pthread.h
+[17.080s] -- Looking for pthread.h - found
+[17.081s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.403s] -- Found Threads: TRUE  
+[17.501s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[17.526s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[17.550s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[17.568s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[17.737s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[17.875s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[17.877s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.877s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.902s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.060s] -- Configured cppcheck include dirs: 
+[18.060s] -- Configured cppcheck exclude dirs and/or files: 
+[18.062s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.064s] -- Added test 'lint_cmake' to check CMake code style
+[18.067s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.070s] -- Added test 'uncrustify' to check C / C++ code style
+[18.071s] -- Configured uncrustify additional arguments: 
+[18.073s] -- Added test 'xmllint' to check XML markup files
+[18.078s] -- Configuring done
+[18.110s] -- Generating done
+[18.122s] -- Build files have been written to: /home/seifelshafey/nav_robot_ws/src/build/teleop_robot
+[18.138s] Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/seifelshafey/nav_robot_ws/src/teleop_robot -DCMAKE_INSTALL_PREFIX=/home/seifelshafey/nav_robot_ws/src/install/teleop_robot
+[18.142s] Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/seifelshafey/nav_robot_ws/src/build/teleop_robot -- -j12 -l12
+[18.235s] [ 16%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop_node.cpp.o[0m
+[18.237s] [ 33%] [32mBuilding CXX object CMakeFiles/state.dir/src/state_estimation_node.cpp.o[0m
+[18.237s] [ 50%] [32mBuilding CXX object CMakeFiles/spawn.dir/src/spawn_robot.cpp.o[0m
+[25.036s] [ 66%] [32m[1mLinking CXX executable teleop[0m
+[25.479s] [ 83%] [32m[1mLinking CXX executable spawn[0m
+[25.543s] [ 83%] Built target teleop
+[26.059s] [ 83%] Built target spawn
+[30.326s] [100%] [32m[1mLinking CXX executable state[0m
+[31.128s] [100%] Built target state
+[31.146s] Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/seifelshafey/nav_robot_ws/src/build/teleop_robot -- -j12 -l12
+[31.161s] Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/seifelshafey/nav_robot_ws/src/build/teleop_robot
+[31.174s] -- Install configuration: ""
+[31.236s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/teleop
+[31.237s] -- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/teleop" to ""
+[31.238s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/spawn
+[31.239s] -- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/spawn" to ""
+[31.240s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/state
+[31.244s] -- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/state" to ""
+[31.244s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//config
+[31.245s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//config/my_controllers.yaml
+[31.279s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf
+[31.279s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot_links.xacro
+[31.279s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/lidar.xacro
+[31.285s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/robot_properties.xacro
+[31.285s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot_joints.xacro
+[31.285s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/ros2_control.xacro
+[31.286s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot.urdf.xacro
+[31.286s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//rviz
+[31.286s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//rviz/my_robot.rviz
+[31.286s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch
+[31.287s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/sim.launch.py
+[31.287s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/startup.launch.py
+[31.288s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/rsp.launch.py
+[31.289s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/package_run_dependencies/teleop_robot
+[31.289s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/parent_prefix_path/teleop_robot
+[31.290s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/ament_prefix_path.sh
+[31.290s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/ament_prefix_path.dsv
+[31.290s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/path.sh
+[31.291s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/path.dsv
+[31.291s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.bash
+[31.291s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.sh
+[31.291s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.zsh
+[31.292s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.dsv
+[31.292s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.dsv
+[31.292s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/packages/teleop_robot
+[31.293s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/cmake/teleop_robotConfig.cmake
+[31.293s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/cmake/teleop_robotConfig-version.cmake
+[31.293s] -- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.xml
+[31.296s] Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/seifelshafey/nav_robot_ws/src/build/teleop_robot

@@ -1,0 +1,132 @@
+[2.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.246s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c9b9cd62740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c9b9cd62200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c9b9cd62200>>)
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.766s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seifelshafey/nav_robot_ws/src'
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extensions ['ignore', 'ignore_ament_install']
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extension 'ignore'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extension 'ignore_ament_install'
+[4.779s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extensions ['colcon_pkg']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extension 'colcon_pkg'
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extensions ['colcon_meta']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extension 'colcon_meta'
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extensions ['ros']
+[4.780s] Level 1:colcon.colcon_core.package_identification:_identify(teleop_robot) by extension 'ros'
+[4.782s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop_robot' with type 'ros.ament_cmake' and name 'teleop_robot'
+[4.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.895s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/seifelshafey/nav_robot_ws/install
+[4.896s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 37 installed packages in /home/seifelshafey/ros2_control_ws/install
+[4.898s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_args' from command line to 'None'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_target' from command line to 'None'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_clean_first' from command line to 'False'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'cmake_force_configure' from command line to 'False'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'ament_cmake_args' from command line to 'None'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.616s] Level 5:colcon.colcon_core.verb:set package 'teleop_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.616s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot', 'merge_install': False, 'path': '/home/seifelshafey/nav_robot_ws/src/teleop_robot', 'symlink_install': False, 'test_result_base': None}
+[5.616s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seifelshafey/nav_robot_ws/src/teleop_robot' with build type 'ament_cmake'
+[5.618s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seifelshafey/nav_robot_ws/src/teleop_robot'
+[5.631s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/seifelshafey/nav_robot_ws/src/teleop_robot -DCMAKE_INSTALL_PREFIX=/home/seifelshafey/nav_robot_ws/src/install/teleop_robot
+[23.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/seifelshafey/nav_robot_ws/src/teleop_robot -DCMAKE_INSTALL_PREFIX=/home/seifelshafey/nav_robot_ws/src/install/teleop_robot
+[23.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/seifelshafey/nav_robot_ws/src/build/teleop_robot -- -j12 -l12
+[36.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/seifelshafey/nav_robot_ws/src/build/teleop_robot -- -j12 -l12
+[36.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/seifelshafey/nav_robot_ws/src/build/teleop_robot
+[36.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_robot)
+[36.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/seifelshafey/nav_robot_ws/src/build/teleop_robot
+[37.096s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot' for CMake module files
+[37.097s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot' for CMake config files
+[37.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_robot', 'cmake_prefix_path')
+[37.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.ps1'
+[37.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.dsv'
+[37.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.sh'
+[37.100s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib'
+[37.100s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/bin'
+[37.100s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/pkgconfig/teleop_robot.pc'
+[37.100s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/python3.10/site-packages'
+[37.100s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/bin'
+[37.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.ps1'
+[37.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.dsv'
+[37.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.sh'
+[37.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.bash'
+[37.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.zsh'
+[37.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/colcon-core/packages/teleop_robot)
+[37.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_robot)
+[37.105s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot' for CMake module files
+[37.106s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot' for CMake config files
+[37.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_robot', 'cmake_prefix_path')
+[37.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.ps1'
+[37.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.dsv'
+[37.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/hook/cmake_prefix_path.sh'
+[37.108s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib'
+[37.108s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/bin'
+[37.108s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/pkgconfig/teleop_robot.pc'
+[37.108s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/python3.10/site-packages'
+[37.108s] Level 1:colcon.colcon_core.environment:checking '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/bin'
+[37.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.ps1'
+[37.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.dsv'
+[37.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.sh'
+[37.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.bash'
+[37.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.zsh'
+[37.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/colcon-core/packages/teleop_robot)
+[37.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.113s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[37.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.196s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.197s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[37.197s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seifelshafey/nav_robot_ws/src/install/local_setup.ps1'
+[37.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seifelshafey/nav_robot_ws/src/install/_local_setup_util_ps1.py'
+[37.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seifelshafey/nav_robot_ws/src/install/setup.ps1'
+[37.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seifelshafey/nav_robot_ws/src/install/local_setup.sh'
+[37.203s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seifelshafey/nav_robot_ws/src/install/_local_setup_util_sh.py'
+[37.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seifelshafey/nav_robot_ws/src/install/setup.sh'
+[37.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seifelshafey/nav_robot_ws/src/install/local_setup.bash'
+[37.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seifelshafey/nav_robot_ws/src/install/setup.bash'
+[37.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seifelshafey/nav_robot_ws/src/install/local_setup.zsh'
+[37.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seifelshafey/nav_robot_ws/src/install/setup.zsh'

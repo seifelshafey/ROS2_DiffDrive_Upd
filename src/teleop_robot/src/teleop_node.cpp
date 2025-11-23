@@ -13,8 +13,8 @@
 using namespace std::chrono_literals;
 
 // --- Configuration ---
-const double MAX_LIN_VEL = 0.5;  // m/s
-const double MAX_ANG_VEL = 1.0;  // rad/s
+const double MAX_LIN_VEL = 1.0;  // m/s
+const double MAX_ANG_VEL = 0.75;  // rad/s
 const double STOP_TIMEOUT = 0.5; // Seconds before robot stops if no key is held
 
 // Helper: Non-blocking key read

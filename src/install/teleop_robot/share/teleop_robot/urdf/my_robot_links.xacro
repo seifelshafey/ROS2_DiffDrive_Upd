@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
+      </geometry>
+    </collision>
+    <xacro:box_inertia m="${chassis_mass}" l="${chassis_length}" w="${chassis_width}" h="${chassis_height}"/>
+  </link>
+
+  <link name="right_wheel_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_length}"/> 
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_length}"/> 
+      </geometry>
+    </collision>
+     <xacro:cylinder_inertia m="${wheel_mass}" r="${wheel_radius}" h="${wheel_length}"/>
+  </link>
+
+  <link name="left_wheel_link">
+    <visual>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_length}"/> 
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="${wheel_radius}" length="${wheel_length}"/> 
+      </geometry>
+    </collision>
+    <xacro:cylinder_inertia m="${wheel_mass}" r="${wheel_radius}" h="${wheel_length}"/>
+  </link>
+
+  <link name="castor_wheel_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.025"/> 
+      </geometry>
+      <material name="grey"/>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.025"/> 
+      </geometry>
+    </collision>
+    <xacro:sphere_inertia m="${wheel_mass}" r="0.025"/>
+  </link>
+
+
+  <gazebo reference="base_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="right_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+    </gazebo>
+
+    <gazebo reference="left_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+    </gazebo>
+
+    <gazebo reference="castor_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1>0.001</mu1>
+        <mu2>0.001</mu2>
+    </gazebo>
+
+</robot>

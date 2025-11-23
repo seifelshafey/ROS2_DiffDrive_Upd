@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_robot">
+
+    <xacro:include filename="$(find teleop_robot)/urdf/robot_properties.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/my_robot_links.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/my_robot_joints.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/ros2_control.xacro"/>
+    <xacro:include filename="$(find teleop_robot)/urdf/lidar.xacro"/>
+
+    <xacro:lidar parent_link="base_link" x_loc="0.0" y_loc="0.0" z_loc="0.15"/>
+ 
+
+</robot>

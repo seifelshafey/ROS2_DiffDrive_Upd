@@ -1,0 +1,423 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (teleop_robot) JobQueued: {'identifier': 'teleop_robot', 'dependencies': OrderedDict()}
+[0.001140] (teleop_robot) JobStarted: {'identifier': 'teleop_robot'}
+[0.029077] (teleop_robot) JobProgress: {'identifier': 'teleop_robot', 'progress': 'cmake'}
+[0.031521] (teleop_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/seifelshafey/nav_robot_ws/src/teleop_robot', '-DCMAKE_INSTALL_PREFIX=/home/seifelshafey/nav_robot_ws/src/install/teleop_robot'], 'cwd': '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seifelshafey'), ('GIT_ASKPASS', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seifelshafey/ros2_control_ws/install/velocity_controllers/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_controller/lib:/home/seifelshafey/ros2_control_ws/install/transmission_interface/lib:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing/lib:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets/lib:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/position_controllers/lib:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/pid_controller/lib:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/joint_limits/lib:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/gripper_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gpio_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control/lib:/home/seifelshafey/ros2_control_ws/install/effort_controllers/lib:/home/seifelshafey/ros2_control_ws/install/forward_command_controller/lib:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager/lib:/home/seifelshafey/ros2_control_ws/install/admittance_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_interface/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seifelshafey'), ('OLDPWD', '/home/seifelshafey/nav_robot_ws'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-45696bd7-10e8-4c35-b776-4a46e723a8a0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install:/home/seifelshafey/ros2_control_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seifelshafey'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/14538_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli:/home/seifelshafey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/New folder/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/DownSyn/MATLAB/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/seife/.pixi/bin:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/seife/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/seife/GitHubDesktop/bin:/mnt/c/Users/seife/.dotnet/tools:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/seife/AppData/Local/GitHubDesktop/bin:/snap/bin:/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-3fb84e4a239e70ee.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/seifelshafey/.vscode-server/data/User/workspaceStorage/2ec7aa23423898aa250f4ed94cddf0c5/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c6cd7671a9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seifelshafey/ros2_control_ws/build/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099643] (-) TimerEvent: {}
+[0.200023] (-) TimerEvent: {}
+[0.296084] (teleop_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300146] (-) TimerEvent: {}
+[0.400424] (-) TimerEvent: {}
+[0.500775] (-) TimerEvent: {}
+[0.601127] (-) TimerEvent: {}
+[0.701510] (-) TimerEvent: {}
+[0.801811] (-) TimerEvent: {}
+[0.902136] (-) TimerEvent: {}
+[0.950567] (teleop_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.002262] (-) TimerEvent: {}
+[1.102649] (-) TimerEvent: {}
+[1.202989] (-) TimerEvent: {}
+[1.303324] (-) TimerEvent: {}
+[1.403659] (-) TimerEvent: {}
+[1.419467] (teleop_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.503864] (-) TimerEvent: {}
+[1.604236] (-) TimerEvent: {}
+[1.704609] (-) TimerEvent: {}
+[1.734371] (teleop_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.742726] (teleop_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.743171] (teleop_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.743301] (teleop_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.746509] (teleop_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.804791] (-) TimerEvent: {}
+[1.905200] (-) TimerEvent: {}
+[2.005503] (-) TimerEvent: {}
+[2.105815] (-) TimerEvent: {}
+[2.141872] (teleop_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.151272] (teleop_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.151650] (teleop_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.152252] (teleop_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.162570] (teleop_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.205996] (-) TimerEvent: {}
+[2.306371] (-) TimerEvent: {}
+[2.402953] (teleop_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.406536] (-) TimerEvent: {}
+[2.506898] (-) TimerEvent: {}
+[2.607266] (-) TimerEvent: {}
+[2.627333] (teleop_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.707501] (-) TimerEvent: {}
+[2.807998] (-) TimerEvent: {}
+[2.908430] (-) TimerEvent: {}
+[3.008956] (-) TimerEvent: {}
+[3.109307] (teleop_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.109496] (-) TimerEvent: {}
+[3.127994] (teleop_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.154782] (teleop_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.189010] (teleop_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.209686] (-) TimerEvent: {}
+[3.238771] (teleop_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.310096] (-) TimerEvent: {}
+[3.385681] (teleop_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.400037] (teleop_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.410305] (-) TimerEvent: {}
+[3.510753] (-) TimerEvent: {}
+[3.611269] (-) TimerEvent: {}
+[3.711789] (-) TimerEvent: {}
+[3.812268] (-) TimerEvent: {}
+[3.912782] (-) TimerEvent: {}
+[4.013326] (-) TimerEvent: {}
+[4.113847] (-) TimerEvent: {}
+[4.214483] (-) TimerEvent: {}
+[4.315062] (-) TimerEvent: {}
+[4.415551] (-) TimerEvent: {}
+[4.515986] (-) TimerEvent: {}
+[4.616569] (-) TimerEvent: {}
+[4.717265] (-) TimerEvent: {}
+[4.817946] (-) TimerEvent: {}
+[4.918364] (-) TimerEvent: {}
+[5.018858] (-) TimerEvent: {}
+[5.119362] (-) TimerEvent: {}
+[5.219889] (-) TimerEvent: {}
+[5.320453] (-) TimerEvent: {}
+[5.420976] (-) TimerEvent: {}
+[5.521444] (-) TimerEvent: {}
+[5.621824] (-) TimerEvent: {}
+[5.722439] (-) TimerEvent: {}
+[5.823051] (-) TimerEvent: {}
+[5.923746] (-) TimerEvent: {}
+[6.024384] (-) TimerEvent: {}
+[6.124906] (-) TimerEvent: {}
+[6.225555] (-) TimerEvent: {}
+[6.326125] (-) TimerEvent: {}
+[6.426958] (-) TimerEvent: {}
+[6.527515] (-) TimerEvent: {}
+[6.628063] (-) TimerEvent: {}
+[6.728799] (-) TimerEvent: {}
+[6.829355] (-) TimerEvent: {}
+[6.879566] (teleop_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.929649] (-) TimerEvent: {}
+[7.030413] (-) TimerEvent: {}
+[7.131267] (-) TimerEvent: {}
+[7.232055] (-) TimerEvent: {}
+[7.332846] (-) TimerEvent: {}
+[7.433535] (-) TimerEvent: {}
+[7.534086] (-) TimerEvent: {}
+[7.634592] (-) TimerEvent: {}
+[7.735401] (-) TimerEvent: {}
+[7.836047] (-) TimerEvent: {}
+[7.936854] (-) TimerEvent: {}
+[8.037630] (-) TimerEvent: {}
+[8.138355] (-) TimerEvent: {}
+[8.239113] (-) TimerEvent: {}
+[8.339938] (-) TimerEvent: {}
+[8.440812] (-) TimerEvent: {}
+[8.541503] (-) TimerEvent: {}
+[8.642179] (-) TimerEvent: {}
+[8.743093] (-) TimerEvent: {}
+[8.843735] (-) TimerEvent: {}
+[8.945423] (-) TimerEvent: {}
+[9.046539] (-) TimerEvent: {}
+[9.147200] (-) TimerEvent: {}
+[9.247985] (-) TimerEvent: {}
+[9.348790] (-) TimerEvent: {}
+[9.449654] (-) TimerEvent: {}
+[9.550334] (-) TimerEvent: {}
+[9.650909] (-) TimerEvent: {}
+[9.751906] (-) TimerEvent: {}
+[9.852516] (-) TimerEvent: {}
+[9.953536] (-) TimerEvent: {}
+[10.054384] (-) TimerEvent: {}
+[10.154916] (-) TimerEvent: {}
+[10.255737] (-) TimerEvent: {}
+[10.356292] (-) TimerEvent: {}
+[10.456985] (-) TimerEvent: {}
+[10.557587] (-) TimerEvent: {}
+[10.658307] (-) TimerEvent: {}
+[10.759268] (-) TimerEvent: {}
+[10.776415] (teleop_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.859700] (-) TimerEvent: {}
+[10.960555] (-) TimerEvent: {}
+[11.061502] (-) TimerEvent: {}
+[11.162124] (-) TimerEvent: {}
+[11.263219] (-) TimerEvent: {}
+[11.364087] (-) TimerEvent: {}
+[11.464995] (-) TimerEvent: {}
+[11.565922] (-) TimerEvent: {}
+[11.666655] (-) TimerEvent: {}
+[11.767617] (-) TimerEvent: {}
+[11.868385] (-) TimerEvent: {}
+[11.969378] (-) TimerEvent: {}
+[12.070364] (-) TimerEvent: {}
+[12.170873] (-) TimerEvent: {}
+[12.271764] (-) TimerEvent: {}
+[12.372890] (-) TimerEvent: {}
+[12.473860] (-) TimerEvent: {}
+[12.574737] (-) TimerEvent: {}
+[12.675406] (-) TimerEvent: {}
+[12.776368] (-) TimerEvent: {}
+[12.877220] (-) TimerEvent: {}
+[12.978210] (-) TimerEvent: {}
+[13.079221] (-) TimerEvent: {}
+[13.179871] (-) TimerEvent: {}
+[13.280827] (-) TimerEvent: {}
+[13.381859] (-) TimerEvent: {}
+[13.482414] (-) TimerEvent: {}
+[13.582880] (-) TimerEvent: {}
+[13.683530] (-) TimerEvent: {}
+[13.784189] (-) TimerEvent: {}
+[13.884859] (-) TimerEvent: {}
+[13.985537] (-) TimerEvent: {}
+[14.086221] (-) TimerEvent: {}
+[14.187088] (-) TimerEvent: {}
+[14.287774] (-) TimerEvent: {}
+[14.388234] (-) TimerEvent: {}
+[14.489077] (-) TimerEvent: {}
+[14.589925] (-) TimerEvent: {}
+[14.690753] (-) TimerEvent: {}
+[14.791465] (-) TimerEvent: {}
+[14.892107] (-) TimerEvent: {}
+[14.992497] (-) TimerEvent: {}
+[15.092889] (-) TimerEvent: {}
+[15.193532] (-) TimerEvent: {}
+[15.294225] (-) TimerEvent: {}
+[15.394737] (-) TimerEvent: {}
+[15.495261] (-) TimerEvent: {}
+[15.596273] (-) TimerEvent: {}
+[15.697220] (-) TimerEvent: {}
+[15.798185] (-) TimerEvent: {}
+[15.898587] (-) TimerEvent: {}
+[15.999184] (-) TimerEvent: {}
+[16.099785] (-) TimerEvent: {}
+[16.200479] (-) TimerEvent: {}
+[16.300995] (-) TimerEvent: {}
+[16.401445] (-) TimerEvent: {}
+[16.501948] (-) TimerEvent: {}
+[16.602372] (-) TimerEvent: {}
+[16.702800] (-) TimerEvent: {}
+[16.727736] (teleop_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.752656] (teleop_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.803000] (-) TimerEvent: {}
+[16.903401] (-) TimerEvent: {}
+[17.004045] (-) TimerEvent: {}
+[17.081321] (teleop_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[17.082047] (teleop_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[17.104348] (-) TimerEvent: {}
+[17.204763] (-) TimerEvent: {}
+[17.305174] (-) TimerEvent: {}
+[17.402909] (teleop_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.403990] (teleop_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.405306] (-) TimerEvent: {}
+[17.502255] (teleop_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[17.505518] (-) TimerEvent: {}
+[17.526627] (teleop_robot) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[17.551504] (teleop_robot) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[17.569286] (teleop_robot) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[17.605695] (-) TimerEvent: {}
+[17.706372] (-) TimerEvent: {}
+[17.738441] (teleop_robot) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[17.806753] (-) TimerEvent: {}
+[17.876028] (teleop_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[17.877815] (teleop_robot) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[17.878050] (teleop_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[17.903083] (teleop_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.906916] (-) TimerEvent: {}
+[18.007665] (-) TimerEvent: {}
+[18.060603] (teleop_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.061003] (teleop_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[18.061109] (teleop_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.063198] (teleop_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.065289] (teleop_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.067790] (teleop_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[18.071582] (teleop_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.071770] (teleop_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.073755] (teleop_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.078527] (teleop_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.108102] (-) TimerEvent: {}
+[18.111086] (teleop_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[18.123072] (teleop_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/seifelshafey/nav_robot_ws/src/build/teleop_robot\n'}
+[18.139106] (teleop_robot) CommandEnded: {'returncode': 0}
+[18.142412] (teleop_robot) JobProgress: {'identifier': 'teleop_robot', 'progress': 'build'}
+[18.142611] (teleop_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot', '--', '-j12', '-l12'], 'cwd': '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seifelshafey'), ('GIT_ASKPASS', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seifelshafey/ros2_control_ws/install/velocity_controllers/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_controller/lib:/home/seifelshafey/ros2_control_ws/install/transmission_interface/lib:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing/lib:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets/lib:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/position_controllers/lib:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/pid_controller/lib:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/joint_limits/lib:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/gripper_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gpio_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control/lib:/home/seifelshafey/ros2_control_ws/install/effort_controllers/lib:/home/seifelshafey/ros2_control_ws/install/forward_command_controller/lib:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager/lib:/home/seifelshafey/ros2_control_ws/install/admittance_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_interface/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seifelshafey'), ('OLDPWD', '/home/seifelshafey/nav_robot_ws'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-45696bd7-10e8-4c35-b776-4a46e723a8a0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install:/home/seifelshafey/ros2_control_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seifelshafey'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/14538_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli:/home/seifelshafey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/New folder/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/DownSyn/MATLAB/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/seife/.pixi/bin:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/seife/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/seife/GitHubDesktop/bin:/mnt/c/Users/seife/.dotnet/tools:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/seife/AppData/Local/GitHubDesktop/bin:/snap/bin:/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-3fb84e4a239e70ee.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/seifelshafey/.vscode-server/data/User/workspaceStorage/2ec7aa23423898aa250f4ed94cddf0c5/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c6cd7671a9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seifelshafey/ros2_control_ws/build/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[18.208712] (-) TimerEvent: {}
+[18.235949] (teleop_robot) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[18.238464] (teleop_robot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/state.dir/src/state_estimation_node.cpp.o\x1b[0m\n'}
+[18.238679] (teleop_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spawn.dir/src/spawn_robot.cpp.o\x1b[0m\n'}
+[18.308897] (-) TimerEvent: {}
+[18.409351] (-) TimerEvent: {}
+[18.509839] (-) TimerEvent: {}
+[18.610460] (-) TimerEvent: {}
+[18.711140] (-) TimerEvent: {}
+[18.812230] (-) TimerEvent: {}
+[18.913550] (-) TimerEvent: {}
+[19.014367] (-) TimerEvent: {}
+[19.115518] (-) TimerEvent: {}
+[19.216752] (-) TimerEvent: {}
+[19.317443] (-) TimerEvent: {}
+[19.418549] (-) TimerEvent: {}
+[19.519177] (-) TimerEvent: {}
+[19.619907] (-) TimerEvent: {}
+[19.720886] (-) TimerEvent: {}
+[19.821444] (-) TimerEvent: {}
+[19.922214] (-) TimerEvent: {}
+[20.023137] (-) TimerEvent: {}
+[20.124039] (-) TimerEvent: {}
+[20.224927] (-) TimerEvent: {}
+[20.326030] (-) TimerEvent: {}
+[20.427077] (-) TimerEvent: {}
+[20.527953] (-) TimerEvent: {}
+[20.628971] (-) TimerEvent: {}
+[20.729529] (-) TimerEvent: {}
+[20.830120] (-) TimerEvent: {}
+[20.930687] (-) TimerEvent: {}
+[21.031356] (-) TimerEvent: {}
+[21.132119] (-) TimerEvent: {}
+[21.232923] (-) TimerEvent: {}
+[21.334071] (-) TimerEvent: {}
+[21.434730] (-) TimerEvent: {}
+[21.535677] (-) TimerEvent: {}
+[21.636184] (-) TimerEvent: {}
+[21.737012] (-) TimerEvent: {}
+[21.837850] (-) TimerEvent: {}
+[21.938596] (-) TimerEvent: {}
+[22.039377] (-) TimerEvent: {}
+[22.139930] (-) TimerEvent: {}
+[22.240451] (-) TimerEvent: {}
+[22.341002] (-) TimerEvent: {}
+[22.441713] (-) TimerEvent: {}
+[22.542268] (-) TimerEvent: {}
+[22.642901] (-) TimerEvent: {}
+[22.743411] (-) TimerEvent: {}
+[22.843863] (-) TimerEvent: {}
+[22.944393] (-) TimerEvent: {}
+[23.045188] (-) TimerEvent: {}
+[23.145797] (-) TimerEvent: {}
+[23.246735] (-) TimerEvent: {}
+[23.347398] (-) TimerEvent: {}
+[23.448313] (-) TimerEvent: {}
+[23.549143] (-) TimerEvent: {}
+[23.650150] (-) TimerEvent: {}
+[23.750810] (-) TimerEvent: {}
+[23.851531] (-) TimerEvent: {}
+[23.951966] (-) TimerEvent: {}
+[24.052589] (-) TimerEvent: {}
+[24.153544] (-) TimerEvent: {}
+[24.254330] (-) TimerEvent: {}
+[24.355177] (-) TimerEvent: {}
+[24.455915] (-) TimerEvent: {}
+[24.556561] (-) TimerEvent: {}
+[24.657126] (-) TimerEvent: {}
+[24.757818] (-) TimerEvent: {}
+[24.858522] (-) TimerEvent: {}
+[24.959117] (-) TimerEvent: {}
+[25.037031] (teleop_robot) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable teleop\x1b[0m\n'}
+[25.059417] (-) TimerEvent: {}
+[25.160472] (-) TimerEvent: {}
+[25.261352] (-) TimerEvent: {}
+[25.362075] (-) TimerEvent: {}
+[25.462618] (-) TimerEvent: {}
+[25.479466] (teleop_robot) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable spawn\x1b[0m\n'}
+[25.543836] (teleop_robot) StdoutLine: {'line': b'[ 83%] Built target teleop\n'}
+[25.562789] (-) TimerEvent: {}
+[25.663165] (-) TimerEvent: {}
+[25.763858] (-) TimerEvent: {}
+[25.864615] (-) TimerEvent: {}
+[25.965284] (-) TimerEvent: {}
+[26.059984] (teleop_robot) StdoutLine: {'line': b'[ 83%] Built target spawn\n'}
+[26.065427] (-) TimerEvent: {}
+[26.165950] (-) TimerEvent: {}
+[26.266701] (-) TimerEvent: {}
+[26.367657] (-) TimerEvent: {}
+[26.468350] (-) TimerEvent: {}
+[26.569192] (-) TimerEvent: {}
+[26.669879] (-) TimerEvent: {}
+[26.770690] (-) TimerEvent: {}
+[26.871431] (-) TimerEvent: {}
+[26.972056] (-) TimerEvent: {}
+[27.072792] (-) TimerEvent: {}
+[27.173446] (-) TimerEvent: {}
+[27.274087] (-) TimerEvent: {}
+[27.374891] (-) TimerEvent: {}
+[27.475298] (-) TimerEvent: {}
+[27.575919] (-) TimerEvent: {}
+[27.676704] (-) TimerEvent: {}
+[27.777358] (-) TimerEvent: {}
+[27.877737] (-) TimerEvent: {}
+[27.978379] (-) TimerEvent: {}
+[28.078967] (-) TimerEvent: {}
+[28.179571] (-) TimerEvent: {}
+[28.280248] (-) TimerEvent: {}
+[28.380955] (-) TimerEvent: {}
+[28.481579] (-) TimerEvent: {}
+[28.582008] (-) TimerEvent: {}
+[28.682588] (-) TimerEvent: {}
+[28.783234] (-) TimerEvent: {}
+[28.883647] (-) TimerEvent: {}
+[28.984323] (-) TimerEvent: {}
+[29.085094] (-) TimerEvent: {}
+[29.185541] (-) TimerEvent: {}
+[29.286246] (-) TimerEvent: {}
+[29.386851] (-) TimerEvent: {}
+[29.487302] (-) TimerEvent: {}
+[29.587935] (-) TimerEvent: {}
+[29.688481] (-) TimerEvent: {}
+[29.788942] (-) TimerEvent: {}
+[29.889604] (-) TimerEvent: {}
+[29.990345] (-) TimerEvent: {}
+[30.090799] (-) TimerEvent: {}
+[30.191273] (-) TimerEvent: {}
+[30.291715] (-) TimerEvent: {}
+[30.326794] (teleop_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state\x1b[0m\n'}
+[30.391950] (-) TimerEvent: {}
+[30.492411] (-) TimerEvent: {}
+[30.593080] (-) TimerEvent: {}
+[30.693787] (-) TimerEvent: {}
+[30.794968] (-) TimerEvent: {}
+[30.896068] (-) TimerEvent: {}
+[30.996887] (-) TimerEvent: {}
+[31.097384] (-) TimerEvent: {}
+[31.128736] (teleop_robot) StdoutLine: {'line': b'[100%] Built target state\n'}
+[31.147331] (teleop_robot) CommandEnded: {'returncode': 0}
+[31.147708] (teleop_robot) JobProgress: {'identifier': 'teleop_robot', 'progress': 'install'}
+[31.162164] (teleop_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot'], 'cwd': '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'seifelshafey'), ('GIT_ASKPASS', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seifelshafey/ros2_control_ws/install/velocity_controllers/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/tricycle_controller/lib:/home/seifelshafey/ros2_control_ws/install/transmission_interface/lib:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller/lib:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing/lib:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets/lib:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/position_controllers/lib:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/pid_controller/lib:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller/lib:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/joint_limits/lib:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/gripper_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gpio_controllers/lib:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control/lib:/home/seifelshafey/ros2_control_ws/install/effort_controllers/lib:/home/seifelshafey/ros2_control_ws/install/forward_command_controller/lib:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster/lib:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager/lib:/home/seifelshafey/ros2_control_ws/install/admittance_controller/lib:/home/seifelshafey/ros2_control_ws/install/controller_interface/lib:/home/seifelshafey/ros2_control_ws/install/hardware_interface/lib:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seifelshafey'), ('OLDPWD', '/home/seifelshafey/nav_robot_ws'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-45696bd7-10e8-4c35-b776-4a46e723a8a0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install:/home/seifelshafey/ros2_control_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seifelshafey'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/14538_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/seifelshafey/.vscode-server/bin/1e3c50d64110be466c0b4a45222e81d2c9352888/bin/remote-cli:/home/seifelshafey/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/New folder/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/DownSyn/MATLAB/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/seife/.pixi/bin:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/seife/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/seife/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/seife/GitHubDesktop/bin:/mnt/c/Users/seife/.dotnet/tools:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/seife/AppData/Local/GitHubDesktop/bin:/snap/bin:/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/seifelshafey/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-3fb84e4a239e70ee.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/seifelshafey/.vscode-server/data/User/workspaceStorage/2ec7aa23423898aa250f4ed94cddf0c5/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c6cd7671a9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/seifelshafey/nav_robot_ws/src/build/teleop_robot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/seifelshafey/ros2_control_ws/build/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/build/ros2_controllers_test_nodes:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/seifelshafey/nav_robot_ws/install/turtlebot3_simulations:/home/seifelshafey/nav_robot_ws/install/turtlebot3_manipulation_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_gazebo:/home/seifelshafey/nav_robot_ws/install/turtlebot3_fake_node:/home/seifelshafey/ros2_control_ws/install/ros2_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control_demos:/home/seifelshafey/ros2_control_ws/install/velocity_controllers:/home/seifelshafey/ros2_control_ws/install/tricycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/tricycle_controller:/home/seifelshafey/ros2_control_ws/install/ros2_control:/home/seifelshafey/ros2_control_ws/install/transmission_interface:/home/seifelshafey/ros2_control_ws/install/bicycle_steering_controller:/home/seifelshafey/ros2_control_ws/install/ackermann_steering_controller:/home/seifelshafey/ros2_control_ws/install/steering_controllers_library:/home/seifelshafey/ros2_control_ws/install/hardware_interface_testing:/home/seifelshafey/ros2_control_ws/install/ros2_control_test_assets:/home/seifelshafey/ros2_control_ws/install/range_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/position_controllers:/home/seifelshafey/ros2_control_ws/install/pose_broadcaster:/home/seifelshafey/ros2_control_ws/install/pid_controller:/home/seifelshafey/ros2_control_ws/install/mecanum_drive_controller:/home/seifelshafey/ros2_control_ws/install/joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/joint_state_broadcaster:/home/seifelshafey/ros2_control_ws/install/joint_limits:/home/seifelshafey/ros2_control_ws/install/imu_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/gripper_controllers:/home/seifelshafey/ros2_control_ws/install/gpio_controllers:/home/seifelshafey/ros2_control_ws/install/gazebo_ros2_control:/home/seifelshafey/ros2_control_ws/install/effort_controllers:/home/seifelshafey/ros2_control_ws/install/forward_command_controller:/home/seifelshafey/ros2_control_ws/install/force_torque_sensor_broadcaster:/home/seifelshafey/ros2_control_ws/install/diff_drive_controller:/home/seifelshafey/ros2_control_ws/install/controller_manager:/home/seifelshafey/ros2_control_ws/install/admittance_controller:/home/seifelshafey/ros2_control_ws/install/controller_interface:/home/seifelshafey/ros2_control_ws/install/hardware_interface:/home/seifelshafey/ros2_control_ws/install/controller_manager_msgs:/home/seifelshafey/nav_robot_ws/install/teleop_robot:/home/seifelshafey/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/seifelshafey/ros2_control_ws/install/rqt_controller_manager:/home/seifelshafey/ros2_control_ws/install/ros2controlcli:/home/seifelshafey/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[31.175091] (teleop_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.197598] (-) TimerEvent: {}
+[31.236907] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/teleop\n'}
+[31.238569] (teleop_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/teleop" to ""\n'}
+[31.238760] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/spawn\n'}
+[31.240578] (teleop_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/spawn" to ""\n'}
+[31.240698] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/state\n'}
+[31.244920] (teleop_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/seifelshafey/nav_robot_ws/src/install/teleop_robot/lib/teleop_robot/state" to ""\n'}
+[31.245128] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//config\n'}
+[31.245995] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//config/my_controllers.yaml\n'}
+[31.279918] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf\n'}
+[31.280388] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot_links.xacro\n'}
+[31.280650] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/lidar.xacro\n'}
+[31.285824] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/robot_properties.xacro\n'}
+[31.286086] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot_joints.xacro\n'}
+[31.286507] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/ros2_control.xacro\n'}
+[31.286704] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//urdf/my_robot.urdf.xacro\n'}
+[31.286891] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//rviz\n'}
+[31.287189] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//rviz/my_robot.rviz\n'}
+[31.287528] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch\n'}
+[31.288118] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/sim.launch.py\n'}
+[31.288365] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/startup.launch.py\n'}
+[31.288681] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot//launch/rsp.launch.py\n'}
+[31.290031] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/package_run_dependencies/teleop_robot\n'}
+[31.290522] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/parent_prefix_path/teleop_robot\n'}
+[31.291028] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/ament_prefix_path.sh\n'}
+[31.291404] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/ament_prefix_path.dsv\n'}
+[31.291536] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/path.sh\n'}
+[31.291808] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/environment/path.dsv\n'}
+[31.291899] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.bash\n'}
+[31.292111] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.sh\n'}
+[31.292359] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.zsh\n'}
+[31.292679] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/local_setup.dsv\n'}
+[31.292856] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.dsv\n'}
+[31.293287] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/ament_index/resource_index/packages/teleop_robot\n'}
+[31.293750] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/cmake/teleop_robotConfig.cmake\n'}
+[31.294065] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/cmake/teleop_robotConfig-version.cmake\n'}
+[31.294424] (teleop_robot) StdoutLine: {'line': b'-- Installing: /home/seifelshafey/nav_robot_ws/src/install/teleop_robot/share/teleop_robot/package.xml\n'}
+[31.296808] (teleop_robot) CommandEnded: {'returncode': 0}
+[31.297700] (-) TimerEvent: {}
+[31.398514] (-) TimerEvent: {}
+[31.494245] (teleop_robot) JobEnded: {'identifier': 'teleop_robot', 'rc': 0}
+[31.495457] (-) EventReactorShutdown: {}
