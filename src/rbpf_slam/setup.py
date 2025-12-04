@@ -19,8 +19,8 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
-            'run_slam = rbpf_slam.fast_slam_1.0:main',
-            'run_test = rbpf_slam.test:main',
+            'run_slam = rbpf_slam.fast_slam_1:main',
+            'run_slam2 = rbpf_slam.fast_slam_2:main'
         ],
     },
 )
