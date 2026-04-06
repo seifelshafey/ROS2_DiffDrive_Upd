@@ -1,7 +1,7 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, RegisterEventHandler, AppendEnvironmentVariable
+from launch.actions import ExecuteProcess, IncludeLaunchDescription, RegisterEventHandler, AppendEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from launch.event_handlers import OnProcessExit
@@ -85,13 +85,24 @@ def generate_launch_description():
         arguments=['/gazebo_ros_ray_sensor/out', '/scan'], 
     )
 
+    # Enable X11 key repeat (Docker containers often have it disabled by default).
+    # 250ms initial delay, 30 repeats/sec -- allows holding keys for continuous motion.
+    enable_key_repeat = ExecuteProcess(
+        cmd=['xset', 'r', 'on'],
+        output='log',
+    )
+    set_key_repeat_rate = ExecuteProcess(
+        cmd=['xset', 'r', 'rate', '250', '30'],
+        output='log',
+    )
+
     # Teleop Node (In a popup window)
     my_teleop = Node(
-        package='teleop_robot',      
-        executable='teleop',   
+        package='teleop_robot',
+        executable='teleop',
         name='teleop_keyboard',
         output='screen',
-        prefix='xterm -geometry 80x20 -e' 
+        prefix='xterm -geometry 80x20 -e'
     )
 
     ekf_node = Node(
@@ -126,6 +137,8 @@ def generate_launch_description():
     
     return LaunchDescription([
         set_model_path, # <--- MUST BE FIRST
+        enable_key_repeat,
+        set_key_repeat_rate,
         rsp,
         gazebo,
         rviz_node,
