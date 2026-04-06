@@ -21,7 +21,6 @@ const double STOP_TIMEOUT = 0.5; // Seconds before robot stops if no key is held
 char get_key()
 {
     char buf = 0;
-    // CHANGE HERE: Removed "= {0}" to fix the "missing initializer" warning.
     // tcgetattr will fill this struct with data immediately anyway.
     struct termios old; 
     
