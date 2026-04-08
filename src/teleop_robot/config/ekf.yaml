@@ -3,7 +3,7 @@ ekf_filter_node:
     frequency: 30.0
     sensor_timeout: 0.1
     two_d_mode: true
-    publish_tf: false      # fast_slam will handle the map->odom TF
+    publish_tf: true       # EKF owns odom→base_link (fused wheel+IMU)
     publish_acceleration: false
 
     map_frame: map

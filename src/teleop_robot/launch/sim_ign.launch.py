@@ -113,7 +113,7 @@ def generate_launch_description():
         executable='ekf_node',
         name='ekf_filter_node',
         output='screen',
-        parameters=[ekf_config_path],
+        parameters=[ekf_config_path, {'use_sim_time': True}],
     )
 
     # 7. RViz2

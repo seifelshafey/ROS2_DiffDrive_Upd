@@ -20,5 +20,5 @@ diff_cont:
 
     wheel_separation: 0.55
     wheel_radius: 0.075
-    enable_odom_tf: true
+    enable_odom_tf: false  # EKF publishes odom→base_link instead
     use_stamped_vel: false
