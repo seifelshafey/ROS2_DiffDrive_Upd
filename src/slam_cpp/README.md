@@ -4,7 +4,7 @@ Real-time FastSLAM 2.0 with GMapping-style weighting for ROS 2 Humble.
 
 A C++ particle filter SLAM package that subscribes to live odometry and laser scan topics, builds 2D occupancy grid maps in real-time, and publishes the map, particle cloud, and TF corrections. Ported from a Python proof-of-concept and hardened for production use on a differential-drive robot in Ignition Gazebo.
 
-https://github.com/seifelshafey/ROS2_DiffDrive_Upd/raw/master/src/slam_cpp/media/demo.mp4
+<video src="https://github.com/seifelshafey/ROS2_DiffDrive_Upd/raw/master/src/slam_cpp/media/demo.mp4" controls width="100%"></video>
 
 ---
 
@@ -87,9 +87,6 @@ ros2 launch teleop_robot sim_ign.launch.py
 
 # Terminal 2: SLAM
 ros2 launch slam_cpp slam_cpp.launch.py
-
-# Terminal 3: Teleop
-ros2 run teleop_robot teleop
 ```
 
 In RViz, set Fixed Frame to `map`. Add `/slam/map` (OccupancyGrid), `/slam/best_pose` (PoseStamped), and `/slam/particles` (PoseArray).
