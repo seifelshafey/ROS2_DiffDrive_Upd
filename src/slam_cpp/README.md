@@ -4,7 +4,7 @@ Real-time FastSLAM 2.0 with GMapping-style weighting for ROS 2 Humble.
 
 A C++ particle filter SLAM package that subscribes to live odometry and laser scan topics, builds 2D occupancy grid maps in real-time, and publishes the map, particle cloud, and TF corrections. Ported from a Python proof-of-concept and hardened for production use on a differential-drive robot in Ignition Gazebo.
 
-<video src="https://github.com/seifelshafey/ROS2_DiffDrive_Upd/raw/master/src/slam_cpp/media/demo.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/741d2b44-65a2-43f3-b433-bb21524230c5
 
 ---
 
