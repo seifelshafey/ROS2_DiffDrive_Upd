@@ -1,0 +1,93 @@
+# slam_params.yaml — Default parameters for the FastSLAM 2.0 C++ node.
+#
+# All values match the Python proof-of-concept (fast_slam_2.py) defaults
+# unless noted otherwise (bug fixes use corrected values).
+#
+# KNOWN LIMITATION — Double-Wall Artifact on Loop Return
+# -------------------------------------------------------
+# When the robot traverses a loop and returns to a previously mapped wall,
+# accumulated heading error causes the scan beams to strike the wall at a
+# slightly different grid position. The map update marks new occupied cells
+# beside the original wall, producing a visible "double wall." The old wall
+# cells are inaccessible to Bresenham raycasting (they sit behind the nearer
+# surface), so they cannot be cleared.
+#
+# This is a fundamental limitation of Rao-Blackwellized Particle Filter
+# (RBPF) SLAM: each particle's map is updated incrementally and there is no
+# mechanism to retroactively correct past pose estimates or undo prior map
+# updates. Tuning alpha1/alpha2 (heading spread) and obs_sigma_gain (weight
+# sharpness) was attempted but does not eliminate the artifact — it is
+# structural, not parametric.
+#
+# This limitation is exactly why the robotics community transitioned from
+# particle-filter SLAM (GMapping, FastSLAM) to graph-based SLAM (SLAM
+# Toolbox, Cartographer, GTSAM). Graph-based approaches store the full
+# trajectory as a pose graph and re-optimize ALL past poses when a loop
+# closure is detected, then rebuild the map from the corrected trajectory.
+# RBPF cannot do this.
+#
+# Load via: ros2 launch slam_cpp slam_cpp.launch.py
+
+slam_node:
+  ros__parameters:
+    # Particle filter
+    num_particles: 80
+
+    # Occupancy grid
+    map_size: 50.0          # meters (square map, 50m x 50m)
+    map_resolution: 0.1     # meters per cell (500 x 500 grid)
+
+    # Log-odds scaling
+    log_odds_scale: 20.0
+    lo_occupied: 0.85
+    lo_free: -0.4
+    lo_max: 5.0
+    lo_min: -5.0
+
+    # Motion model noise (Probabilistic Robotics Table 5.6)
+    alpha1: 0.075
+    alpha2: 0.03
+    alpha3: 0.075
+    alpha4: 0.03
+
+    # Scan matching
+    sigma_hit: 0.05
+    sensor_confidence: 5.0
+    score_stride: 2
+    lm_max_iters: 10
+    lm_max_sub_iters: 3
+    mahalanobis_threshold: 9.0
+
+    # Levenberg-Marquardt damping schedule
+    lm_lambda_init: 0.01
+    lm_lambda_min: 1.0e-7
+    lm_lambda_max: 1.0e4
+    lm_lambda_up: 10.0
+    lm_lambda_down: 0.1
+
+    # Motion thresholds
+    motion_threshold_trans: 0.05   # meters
+    motion_threshold_rot: 0.05     # radians
+
+    # Map update gating
+    map_update_dist: 0.20          # meters
+    map_update_angle: 0.25         # radians
+
+    # Weight calculation (GMapping-style gain, Grisetti et al. 2007)
+    # gain = 1 / (obs_sigma_gain * num_particles)
+    # Higher → flatter weights → less collapse. Default 3.0 matches GMapping.
+    obs_sigma_gain: 3.0
+    temperature: 0.2               # legacy, kept for reference
+
+    # Scan subsampling
+    scan_stride: 2
+
+    # Map quality cache
+    quality_cache_interval: 5
+
+    # Topics
+    odom_topic: "/odometry/filtered"
+    scan_topic: "/scan"
+
+    # Publishing
+    map_publish_rate: 2.0          # Hz
